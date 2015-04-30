@@ -1,7 +1,6 @@
 var ang = angular.module('bharath-directive', []);
 ang.directive('countrySearch', function($timeout, $http) {
     return {
-		require: 'ngModel',
         restrict: 'E',
         templateUrl: 'search.html',
         replace: true,
