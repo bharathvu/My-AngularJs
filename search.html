@@ -1,9 +1,0 @@
-<div class="dropdown">
-    <input type="text" ng-model="searchModel" ng-pattern="/^\s*\w*\s*$/" id="dropDownMenu1" ng-change="searchCountry()">
-    <ul class="dropdown-menu" style="display:block;max-height: 260px;
-        overflow-y: auto;" role="menu" aria-labelledby="dropdownMenu1" ng-show="countries.length">
-        <li ng-repeat="country in countries track by $index" role="presentation">
-            <a role="menuitem" tabindex="-1" href="#">{{country}}</a>
-        </li>
-    </ul>
-</div>
