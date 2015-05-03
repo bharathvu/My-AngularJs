@@ -1,6 +1,7 @@
 'use strict';
 
-angular.module('bharath-directive', ['ui.bootstrap', 'ui.bootstrap.typeahead'])
+angular.module('bharath-directive', ['ui.bootstrap']);
+angular.module('bharath-directive')
     .directive('countrySearch', function () {
         return {
             restrict: 'E',
