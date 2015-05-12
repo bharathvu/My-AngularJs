@@ -5,11 +5,11 @@ angular.module('bharath-directives')
     .directive('countrySearch', function () {
         return {
             restrict: 'E',
-            templateUrl: 'GOOGLE_API_URL',
+            templateUrl: 'bower_components/bharath-directives/search.html',
             replace: true,
             controller: function ($scope, $http) {
                 $scope.getLocation = function (val) {
-                    return $http.get($scope.google_api_url, {
+                    return $http.get('GOOGLE_API_URL', {
                         params: {
                             address: val,
                             sensor: false
