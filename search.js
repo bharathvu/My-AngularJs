@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('bharath-directive', ['ui.bootstrap']);
-angular.module('bharath-directive')
+angular.module('bharath-directives', ['ui.bootstrap']);
+angular.module('bharath-directives')
     .directive('countrySearch', function () {
         return {
             restrict: 'E',
